@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Election Awareness Pro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🗳 Election Awareness Pro</h1>
+  <p>Understand. Participate. Strengthen Democracy.</p>
+</header>
+
+<nav>
+  <a href="#steps">Steps</a>
+  <a href="#importance">Why Vote</a>
+  <a href="#quiz">Quiz</a>
+</nav>
+
+<section id="steps">
+  <h2>📌 Election Process</h2>
+  <div class="card">1️⃣ Voter Registration</div>
+  <div class="card">2️⃣ Campaigning</div>
+  <div class="card">3️⃣ Voting</div>
+  <div class="card">4️⃣ Counting & Results</div>
+</section>
+
+<section id="importance">
+  <h2>💡 Why Voting Matters</h2>
+  <p>Your vote shapes the future. It ensures your voice is heard and strengthens democracy.</p>
+</section>
+
+<section id="quiz">
+  <h2>🧠 Quiz Challenge</h2>
+
+  <div class="question">
+    <p>1. Minimum voting age in India?</p>
+    <button onclick="check(18)">18</button>
+    <button onclick="check(21)">21</button>
+  </div>
+
+  <div class="question">
+    <p>2. Who conducts elections?</p>
+    <button onclick="check('eci')">Election Commission</button>
+    <button onclick="check('pm')">Prime Minister</button>
+  </div>
+
+  <div class="question">
+    <p>3. Voting is your?</p>
+    <button onclick="check('right')">Right</button>
+    <button onclick="check('option')">Option</button>
+  </div>
+
+  <h3 id="score">Score: 0</h3>
+  <button onclick="resetQuiz()">Reset Quiz</button>
+</section>
+
+<footer>
+  <p>Made by mamta | PromptWars 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
